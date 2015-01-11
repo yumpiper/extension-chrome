@@ -1,0 +1,75 @@
+#HACKATHON-foodrating {
+  x-border-radius: 100px;
+  x-background: red;
+  color: white;
+  font-size: 40px;
+  line-height: 80px;
+  width: 247px;
+  height: 131px;
+  opacity: 1
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  text-align: center;
+  x-webkit-transform: rotate(13deg);
+  z-index: 1000;
+  position: absolute;
+}
+
+#HACKATHON-foodrating .yummie {
+  position: absolute;
+  top: 25px;
+  left: 53px;
+  color: black;
+  text-align: center;
+}
+
+#HACKATHON-foodrating .health {
+  position: absolute;
+  top: 25px;
+  right: 53px;
+  color: black;
+  text-align: center;
+}
+
+.HACKATHON-search-wrapper {
+  position: absolute;
+}
+
+#res h3.r { overflow: visible !important; }
+
+#res .HACKATHON-google,
+#b_results .HACKATHON-google {
+  font-size: 12px;
+  padding: 2px;
+  margin-left: 8px;
+  border: 1px solid;
+  x-background: rgba(0, 101, 27, 0.5);
+  border-radius: 3px;
+  xposition: absolute;
+}
+
+.HACKATHON-google.yummie {
+  border-color:  #FFA200;
+  color:  #FFA200;
+}
+
+.HACKATHON-google.healthy {
+  border-color:  #006621;
+  color:  #006621;
+}
+
+#res h3:not(.done):after,
+#b_results .b_algo h2:not(.done):after {
+  display: inline-block;
+  background: url(https://www.dropbox.com/s/opfgsa3ruyhe7q5/ajax-loader.gif?dl=1) no-repeat;
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  margin-left: 8px;
+}
+
+/* bing */
+#b_context, .b_ad { display: none; !important }
+#b_results { width: 100%; }
+
