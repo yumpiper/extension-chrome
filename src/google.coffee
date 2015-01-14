@@ -15,7 +15,12 @@ $('#main')[0].addEventListener(
 loadGoogleResult = (element)->
   console.log recipeUrl = $(element).find('.r > a[href]').first().attr('href')
 
-  $.get(recipeUrl, 'text').then (results)->
+  chrome.runtime.sendMessage
+    msg:'getUrl'
+    url:recipeUrl
+  , (results)->
+    #$.get(recipeUrl, 'text').then (results)->
+    results = results.replace(/(<[^>]*\b)src/gmi,'$1x-src').replace(/<(\/?)script/gmi,'<$1x-script')
     myParsedElement = $(results)
     console.log myParsedElement
 
@@ -38,6 +43,6 @@ loadGoogleResult = (element)->
       console.log result
       $(element).find('h3').append "
       <span class='HACKATHON-search-wrapper'>
-        <span class='HACKATHON-google yummie'>Yummie #{result.ratings.yummy}</span>
-        <span class='HACKATHON-google healthy'>Healthy #{result.ratings.health}</span>
+        <span class='HACKATHON-google yummie'>Yummie <span class='number'>#{result.ratings.yummy}</span></span>
+        <span class='HACKATHON-google healthy'>Healthy <span class='number'>#{result.ratings.health}</span></span>
       </span>"
