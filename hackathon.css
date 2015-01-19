@@ -40,23 +40,34 @@
 
 #res .HACKATHON-google,
 #b_results .HACKATHON-google {
-  font-size: 12px;
-  padding: 2px;
+  font-size: 14px;
+  padding: 1px 1px 1px 4px;
   margin-left: 8px;
   border: 1px solid;
   x-background: rgba(0, 101, 27, 0.5);
-  border-radius: 3px;
+  border-radius: 20px;
   xposition: absolute;
 }
 
-.HACKATHON-google.yummie {
-  border-color:  #FFA200;
-  color:  #FFA200;
+#res .HACKATHON-google.yummie {
+  border-color:  #F7749C; // #F0AC00;
+  background:    #F7749C; // #F0AC00;
+  color: white;
 }
 
-.HACKATHON-google.healthy {
-  border-color:  #006621;
-  color:  #006621;
+#res .HACKATHON-google.healthy {
+  border-color:  #99C03D;
+  background:  #99C03D;
+  color: white;
+}
+
+#res .HACKATHON-google .number {
+  background: white;
+  color: black;
+  font-weight: 900;
+  padding: 0 4px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #res h3:not(.done):after,
@@ -72,4 +83,11 @@
 /* bing */
 #b_context, .b_ad { display: none; !important }
 #b_results { width: 100%; }
+
+.mysugr-nutrients .icon { height: 100%; }
+
+.mysugr-nutrients {
+  opacity: 0.75;
+  height: 3em;
+}
 

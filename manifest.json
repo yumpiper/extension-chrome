@@ -36,6 +36,7 @@
     },
     {
       "matches": ["*://www.google.com/*"],
+      "css" : ["mysugr-icons.css"],
       "js": [
         "lib/jquery-2.1.3.min.js",
         "lib/lodash-2.4.1.min.js",

@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "mySugr_Icons";
+  src: url("chrome-extension://__MSG_@@extension_id__/mySugr_UI-Icons-Regular.eot");
+  src: url("chrome-extension://__MSG_@@extension_id__/mySugr_UI-Icons-Regular.eot?#iefix") format("embedded-opentype"),
+  url("chrome-extension://__MSG_@@extension_id__/mySugr_UI-Icons-Regular.woff") format("woff"),
+  url("chrome-extension://__MSG_@@extension_id__/mySugr_UI-Icons-Regular.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+.ms-fi { width: 2em; height: 2em; }
+
+.ms-fi,
+.ms-fl,
+.ms-fv,
+.ms-fm {
+  display:inline-block;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+  .browser-ie-10plus & {
+    line-height:.75em !important;
+    overflow:visible !important;
+  }
+  .os-windows.browser-firefox & {
+    line-height:.8em !important;
+    overflow:visible !important;
+  }
+  .os-windows.browser-chrome & {
+    line-height:.8em !important;
+    overflow:visible !important;
+  }
+}
+
+
+/* ************************* */
+/* Icons */
+/* ************************* */
+
+.ms-fi {
+  font-family: "mySugr_Icons"
+}
+
+.ms-fv{
+  font-family: "mySugr_VisualTags"
+}
+
+.ms-fi-tipp:before {content:"\C106";}
+
+/* new font start */
+
+.ms-fi-challenges1:before { content:"\E001"; }
+.ms-fi-reports1:before { content:"\E003"; }
+.ms-fi-left:before { content:"\E005"; }
+.ms-fi-arrow-left:before { content:"\E005"; } /* should be "left" */
+.ms-fi-left.ms-fi-toggle-open:before { content:"\E008"; }
+.ms-fi-right:before { content:"\E006"; }
+.ms-fi-arrow-right:before { content:"\E006"; } /* should be "right" */
+.ms-fi-up:before { content:"\E007"; }
+.ms-fi-down:before { content:"\E008"; }
+.ms-fi-plus:before { content:"\E009"; }
+.ms-fi-delete:before { content:"\E00A"; }
+
+.ms-fi-ok:before { content:"\E00B"; }
+.ms-fi-menu:before { content:"\E00C"; }
+.ms-fi-withlove2:before { content:"\E00E"; }
+.ms-fi-withlove1:before { content:"\E00F"; }
+.ms-fi-support:before { content:"\E014"; }
+.ms-fi-mshealth1:before { content:"\E016"; }
+.ms-fi-version:before { content:"\E018"; }
+.ms-fi-company:before { content:"\E019"; }
+.ms-fi-certificate:before { content:"\E01A"; }
+.ms-fi-partners:before { content:"\E01C"; }
+.ms-fi-tag:before { content:"\E02C"; }
+.ms-fi-home1:before { content:"\E02E"; }
+.ms-fi-star:before { content:"\E028"; }
+.ms-fi-play:before {content:"\E029";}
+.ms-fi-notification:before{content:"\E02D";}
+.ms-fi-location:before {content:"\E02F";}
+.ms-fi-time:before {content:"\E030";}
+.ms-fi-notification:before{content:"\E02D";}
+.ms-fi-time:before {content:"\E030";}
+.ms-fi-description:before { content:"\E034"; }
+.ms-fi-closed:before{content:"\E045"}
+.ms-fi-verified:before  {content:"\E024"}
+.ms-fi-tags:before      {content:"\E02C"}
+.ms-fi-nutrition:before {content:"\E031"}
+
+.ms-fi-nutritional-ALCOHOL:before { content:"\E035"; }
+.ms-fi-nutritional-FISH:before { content:"\E036"; }
+.ms-fi-nutritional-SWEETS_SNACKS:before { content:"\E037"; }
+.ms-fi-nutritional-GRAIN:before { content:"\E038"; }
+.ms-fi-nutritional-FRUITS:before { content:"\E039"; }
+.ms-fi-nutritional-VEGETABLE:before { content:"\E03A"; }
+.ms-fi-nutritional-DAIRY:before { content:"\E03B"; }
+.ms-fi-nutritional-MEAT:before { content:"\E03C"; }
+.ms-fi-nutritional-EGGS:before { content:"\E03D"; }
+.ms-fi-nutritional-FAST_FOOD:before { content:"\E03E"; }
+.ms-fi-nutritional-ARTIFICIAL_SUGAR:before { content:"\E03F"; }
+.ms-fi-nutritional-BEVERAGES:before { content:"\E040"; }
+.ms-fi-nutritional-WHOLE_GRAIN:before { content:"\E053"; }
+
+.ms-fi-chicks:before { content:"\E04A"; }
+
+.ms-fi-appstore:before { content:"\E05F"; }
+.ms-fi-android:before { content:"\E060"; }
+
+.ms-fi-flag-food:before { content:"\E500"; }
+.ms-fi-flag-insulin:before { content:"\E501"; }
+.ms-fi-flag-activity:before { content:"\E502"; }
+.ms-fi-flag-glucose:before { content:"\E503"; }
+.ms-fi-flag-glucoseimp:before { content:"\E504"; }
+.ms-fi-flag-bloodpressure:before { content:"\E503"; }
+.ms-fi-flag-ketones:before { content:"\E503"; }
+.ms-fi-flag-hba1c:before { content:"\E503"; }
+.ms-fi-flag-foodimp:before { content:"\E505"; }
+.ms-fi-flag-insulinimp:before { content:"\E506"; }
+.ms-fi-flag-activityimp:before { content:"\E507"; }
+
+
+.ms-fi-mySugrhealth:before { content:"\E540"; }
+.ms-fi-mySugrlogbook:before { content:"\E541"; }
+.ms-fi-mySugracademy:before { content:"\E542"; }
+.ms-fi-mySugranalysis:before { content:"\E546"; }
+
+
+.ms-fi-tag-happy:before { content:"\E600"; }
+.ms-fi-tag-tired:before { content:"\E601"; }
+.ms-fi-tag-sad:before { content:"\E602"; }
+.ms-fi-tag-basic:before { content:"\E603"; }
+.ms-fi-tag-stress:before { content:"\E604"; }
+.ms-fi-tag-pissed_off:before { content:"\E605"; }
+.ms-fi-tag-nervous:before { content:"\E606"; }
+.ms-fi-tag-hypo-feeling:before { content:"\E607"; }
+.ms-fi-tag-chilling:before { content:"\E608"; }
+.ms-fi-tag-party:before { content:"\E609"; }
+.ms-fi-tag-headache:before { content:"\E60A"; }
+.ms-fi-tag-excited:before { content:"\E60B"; }
+.ms-fi-tag-snack:before { content:"\E60C"; }
+.ms-fi-tag-breakfast:before { content:"\E60D"; }
+.ms-fi-tag-lunch:before { content:"\E60E"; }
+.ms-fi-tag-dinner:before { content:"\E60F"; }
+.ms-fi-tag-drunk:before { content:"\E610"; }
+.ms-fi-tag-office_work:before { content:"\E611"; }
+.ms-fi-tag-manualwork:before { content:"\E612"; }
+.ms-fi-tag-correction:before { content:"\E613"; }
+.ms-fi-tag-shopping:before { content:"\E614"; }
+.ms-fi-tag-driving:before { content:"\E615"; }
+.ms-fi-tag-travelling:before { content:"\E616"; }
+.ms-fi-tag-sleeping:before { content:"\E617"; }
+.ms-fi-tag-on_the_road:before { content:"\E618"; }
+.ms-fi-tag-vacation:before { content:"\E619"; }
+.ms-fi-tag-sports:before { content:"\E61A"; }
+.ms-fi-tag-sick:before { content:"\E61B"; }
+.ms-fi-tag-menstruation:before { content:"\E61C"; }
+.ms-fi-tag-fasting:before { content:"\E61D"; }
+.ms-fi-tag-real_work:before { content:"\E61E"; }
+.ms-fi-tag-work:before { content:"\E61F"; }
+.ms-fi-tag-placeholder:before { content:"\E620"; }
+.ms-fi-tag-general:before { content:"\E621"; }
+.ms-fi-tag-before_meal:before { content:"\E622"; }
+.ms-fi-tag-after_sports:before { content:"\E623"; }
+.ms-fi-tag-catheter_change:before { content:"\E624"; }
+.ms-fi-tag-needle_change:before { content:"\E625"; }
+.ms-fi-tag-bedtime:before { content:"\E626"; }
+.ms-fi-tag-hung_over:before { content:"\E627"; }
+.ms-fi-tag-allergies:before { content:"\E628"; }
+.ms-fi-tag-housework:before { content:"\E629"; }
+.ms-fi-tag-shift_work:before { content:"\E62A"; }
+.ms-fi-tag-foot_on_the_floor:before { content:"\E62B"; }
+.ms-fi-tag-carb_guess:before { content:"\E62C"; }
+.ms-fi-tag-hyper_feeling:before { content:"\E62D"; }
+.ms-fi-tag-special_situation:before { content:"\E62E"; }
+.ms-fi-tag-pain:before { content:"\E62F"; }
+.ms-fi-tag-eating_out:before { content:"\E630"; }
+.ms-fi-tag-binging:before { content:"\E631"; }
+.ms-fi-tag-before_sports:before { content:"\E632"; }
+
+.ms-fi-tag-after_meal:before { content:"\E032"; }
+
+
+
+
+
+
+.ms-fi-loc-RESIDEN:before { content:"\E900"; }
+.ms-fi-loc-PROFESS:before { content:"\E901"; }
+.ms-fi-loc-COLLEGE:before { content:"\E902"; }
+.ms-fi-loc-HOME:before { content:"\E900"; }
+.ms-fi-loc-OFFICE:before { content:"\E901"; }
+.ms-fi-loc-SCHOOL:before { content:"\E902"; }
+.ms-fi-loc-FOOD:before { content:"\E903"; }
+.ms-fi-loc-OUTDOORS:before { content:"\E904"; }
+.ms-fi-loc-SPORTS:before { content:"\E904"; }
+.ms-fi-loc-NITELIFE:before { content:"\E905"; }
+.ms-fi-loc-EVENT:before { content:"\E906"; }
+.ms-fi-loc-ARTS_ENT:before { content:"\E907"; }
+.ms-fi-loc-SHOP:before { content:"\E908"; }
+.ms-fi-loc-TRAVEL:before { content:"\E909"; }
+.ms-fi-loc-UNKNOWN:before { content:"\E02F"; }
+.ms-fi-loc-:before { content:"\E02F"; } // "no location"
+
+
+
+.ms-fi-tag-happy.ms-fi-tag-active:before { content:"\F600"; }
+.ms-fi-tag-tired.ms-fi-tag-active:before { content:"\F601"; }
+.ms-fi-tag-sad.ms-fi-tag-active:before { content:"\F602"; }
+.ms-fi-tag-basic.ms-fi-tag-active:before { content:"\F603"; }
+.ms-fi-tag-stress.ms-fi-tag-active:before { content:"\F604"; }
+.ms-fi-tag-pissed_off.ms-fi-tag-active:before { content:"\F605"; }
+.ms-fi-tag-nervous.ms-fi-tag-active:before { content:"\F606"; }
+.ms-fi-tag-hypo-feeling.ms-fi-tag-active:before { content:"\F607"; }
+.ms-fi-tag-chilling.ms-fi-tag-active:before { content:"\F608"; }
+.ms-fi-tag-party.ms-fi-tag-active:before { content:"\F609"; }
+.ms-fi-tag-headache.ms-fi-tag-active:before { content:"\F60A"; }
+.ms-fi-tag-excited.ms-fi-tag-active:before { content:"\F60B"; }
+.ms-fi-tag-snack.ms-fi-tag-active:before { content:"\F60C"; }
+.ms-fi-tag-breakfast.ms-fi-tag-active:before { content:"\F60D"; }
+.ms-fi-tag-lunch.ms-fi-tag-active:before { content:"\F60E"; }
+.ms-fi-tag-dinner.ms-fi-tag-active:before { content:"\F60F"; }
+.ms-fi-tag-drunk.ms-fi-tag-active:before { content:"\F610"; }
+.ms-fi-tag-office_work.ms-fi-tag-active:before { content:"\F611"; }
+.ms-fi-tag-manualwork.ms-fi-tag-active:before { content:"\F612"; }
+.ms-fi-tag-correction.ms-fi-tag-active:before { content:"\F613"; }
+.ms-fi-tag-shopping.ms-fi-tag-active:before { content:"\F614"; }
+.ms-fi-tag-driving.ms-fi-tag-active:before { content:"\F615"; }
+.ms-fi-tag-travelling.ms-fi-tag-active:before { content:"\F616"; }
+.ms-fi-tag-sleeping.ms-fi-tag-active:before { content:"\F617"; }
+.ms-fi-tag-on_the_road.ms-fi-tag-active:before { content:"\F618"; }
+.ms-fi-tag-vacation.ms-fi-tag-active:before { content:"\F619"; }
+.ms-fi-tag-sports.ms-fi-tag-active:before { content:"\F61A"; }
+.ms-fi-tag-sick.ms-fi-tag-active:before { content:"\F61B"; }
+.ms-fi-tag-menstruation.ms-fi-tag-active:before { content:"\F61C"; }
+.ms-fi-tag-fasting.ms-fi-tag-active:before { content:"\F61D"; }
+.ms-fi-tag-real_work.ms-fi-tag-active:before { content:"\F61E"; }
+.ms-fi-tag-work.ms-fi-tag-active:before { content:"\F61F"; }
+.ms-fi-tag-placeholder.ms-fi-tag-active:before { content:"\F620"; }
+.ms-fi-tag-general.ms-fi-tag-active:before { content:"\F621"; }
+.ms-fi-tag-before_meal.ms-fi-tag-active:before { content:"\F622"; }
+.ms-fi-tag-after_sports.ms-fi-tag-active:before { content:"\F623"; }
+.ms-fi-tag-catheter_change.ms-fi-tag-active:before { content:"\F624"; }
+.ms-fi-tag-needle_change.ms-fi-tag-active:before { content:"\F625"; }
+.ms-fi-tag-bedtime.ms-fi-tag-active:before { content:"\F626"; }
+.ms-fi-tag-hung_over.ms-fi-tag-active:before { content:"\F627"; }
+.ms-fi-tag-allergies.ms-fi-tag-active:before { content:"\F628"; }
+.ms-fi-tag-housework.ms-fi-tag-active:before { content:"\F629"; }
+.ms-fi-tag-shift_work.ms-fi-tag-active:before { content:"\F62A"; }
+.ms-fi-tag-foot_on_the_floor.ms-fi-tag-active:before { content:"\F62B"; }
+.ms-fi-tag-carb_guess.ms-fi-tag-active:before { content:"\F62C"; }
+.ms-fi-tag-hyper_feeling.ms-fi-tag-active:before { content:"\F62D"; }
+.ms-fi-tag-special_situation.ms-fi-tag-active:before { content:"\F62E"; }
+.ms-fi-tag-pain.ms-fi-tag-active:before { content:"\F62F"; }
+.ms-fi-tag-eating_out.ms-fi-tag-active:before { content:"\F630"; }
+.ms-fi-tag-binging.ms-fi-tag-active:before { content:"\F631"; }
+.ms-fi-tag-before_sports.ms-fi-tag-active:before { content:"\F632"; }
+
+.ms-fi-tag-after_meal.ms-fi-tag-active:before { content:"\E033"; }
+
+
+
+
+/* new font end */
+
+
+
+.ms-fv-sports:before{content:"\A027";}
+
+
+
+/* ************************* */
+/* Logos */
+/* ************************* */
+
+.ms-fl {
+  font-family:"mySugr_Logos";
+}
+
+.ms-fl-logo:before { content:"\D000"; }
+
+
+
+
